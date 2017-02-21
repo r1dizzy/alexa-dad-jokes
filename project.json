@@ -1,4 +1,5 @@
 {
   "name": "alexa-dad-jokes",
-  "description": "Lamda for the Dad Jokes Alexa Skill"
+  "description": "Lamda for the Dad Jokes Alexa Skill",
+  "role": "arn:aws:iam::785599526097:role/lambda_basic_execution"
 }

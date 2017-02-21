@@ -1,6 +1,0 @@
-{
-  "description": "AWS Lambda for the Dad Jokes Alexa Skill",
-  "hooks":{
-    "build": "pip install -r requirements.txt -t ."
-  }
-}
