@@ -1,11 +1,9 @@
 import handlers
-# TODO: Validate event is Alexa event
 
 
 def handle(event, context):
     event_type = event['request']['type']
     response = None
-    print(event)
 
     if event_type == 'LaunchRequest':
         response = handlers.on_launch(None, None)
